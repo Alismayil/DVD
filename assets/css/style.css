@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#Layer_1{
+    fill: red;
+    height: 100px;
+    animation-name: dvd;
+    animation-duration: 50s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+   
+    text-transform: uppercase;
+}
+@keyframes dvd{
+    0%{
+       transform: translate(0 , 0);
+       fill: blue;
+    }
+    9%{
+        transform: translate(500px, 650px);
+        fill: red;
+    }
+     18%{
+        transform: translate(900px , 0px);
+        fill: orange;
+    }
+    27%{
+        transform: translate(1320px , 400px);
+        fill: yellow;
+    } 
+    36%{
+        transform: translate(1200px, 650px);
+        fill: green;
+    }
+    45%{
+        transform: translate(400px , 0px);
+        fill: aquamarine;
+    }
+    54%{
+        transform: translate(0px, 390px);
+        fill: mediumspringgreen;
+    }
+    63%{
+        transform: translate(289px , 650px);
+        fill: white;
+    }
+    72%{
+        transform: translate(738px , 0px);
+        fill: pink;
+    }
+    81%{
+        transform: translate(1320px , 530px);
+        fill: rgb(194, 93, 39);
+    }
+    91%{
+        transform: translate(689px , 650px);
+        fill: purple;
+    }
+    100%{
+        transform: translate(0 , 0);
+        fill: rgb(50, 174, 240);
+    }
+}
+
